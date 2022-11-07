@@ -10,5 +10,5 @@ inputs:
     description: 'Deprecated. Use ruby-version instead. Will not be supported after October 1, 2019'
     deprecationMessage: 'The version property will not be supported after October 1, 2019. Use ruby-version instead'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
